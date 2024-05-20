@@ -1,1 +1,1 @@
-## Custoemr review rating predictor
+## Customer review rating predictor
