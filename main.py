@@ -45,7 +45,7 @@ def get_rating(review):
     return predicted_rating
 
 @app.route('/review', methods=['POST'])
-def post_endpoint():
+def get_review():
     data = request.json
     return jsonify({'rating': str(get_rating(data['review']))})
 
